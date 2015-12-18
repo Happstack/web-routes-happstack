@@ -3,9 +3,9 @@
 }:
 mkDerivation {
   pname = "web-routes-happstack";
-  version = "0.23.9";
+  version = "0.23.10";
   src = ./.;
-  buildDepends = [
+  libraryHaskellDepends = [
     base bytestring happstack-server text web-routes
   ];
   description = "Adds support for using web-routes with Happstack";
