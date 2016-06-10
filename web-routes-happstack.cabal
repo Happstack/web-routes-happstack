@@ -10,7 +10,7 @@ Synopsis:         Adds support for using web-routes with Happstack
 Description:      Added Happstack class instances for RouteT. Provides a default router for Site.
 Cabal-Version:    >= 1.6
 Build-type:       Simple
-tested-with:      GHC == 7.6.3, GHC == 7.8.4, GHC == 7.10.3
+tested-with:      GHC == 7.6.3, GHC == 7.8.4, GHC == 7.10.3, GHC == 8.0.1
 
 Library
         Build-Depends:    base             >= 4      && < 5,
